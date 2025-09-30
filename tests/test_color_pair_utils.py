@@ -1,4 +1,4 @@
-from utils.color_pair_number import (
+from utils.color_pair_utils import (
     get_color_from_pair_number,
     get_pair_number_from_color,
 )

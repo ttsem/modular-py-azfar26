@@ -1,5 +1,5 @@
 from constants.colors import MAJOR_COLORS, MINOR_COLORS
-from utils.color_pair_number import get_color_from_pair_number
+from utils.color_pair_utils import get_color_from_pair_number
 
 
 def generate_reference_manual() -> dict:
