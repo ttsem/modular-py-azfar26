@@ -18,6 +18,7 @@ if __name__ == "__main__":
     # Run tests on reference manual generation
     test_number_of_entries()
     test_mapping()
+    print("All tests passed!")
 
     # Print reference manual
     print(json.dumps(generate_reference_manual(), indent=4))

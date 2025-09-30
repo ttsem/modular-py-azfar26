@@ -8,8 +8,8 @@ def test_number_of_entries():
     assert len(reference_manual) == expected_count
 
 
-def test_mapping(self):
+def test_mapping():
     reference_manual = generate_reference_manual()
     assert reference_manual.get("White Blue") == 1
     assert reference_manual.get("Red Blue") == 6
-    assert reference_manual.get("violet Slate") == 25
+    assert reference_manual.get("Violet Slate") == 25
