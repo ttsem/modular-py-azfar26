@@ -4,7 +4,10 @@ from tests.test_color_pair_utils import (
     test_number_to_pair,
     test_pair_to_number,
 )
-from tests.test_reference_manual import test_mapping, test_number_of_entries
+from tests.test_reference_manual_generator import (
+    test_mapping,
+    test_number_of_entries,
+)
 from utils.reference_manual_generator import generate_reference_manual
 
 if __name__ == "__main__":
